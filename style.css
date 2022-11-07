@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+#title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+img{
+   
+    height: 500px;
+}
+
+
+
+
+:root{
+    --color-icon: #454546;
+    --font: 'Roboto', sans-serif;
+    --font-sec: 'Poppins', sans-serif;
+    --color-border: #12c9a1;
+    --color-oscuro: #0D0D0D;
+}
+
+/* style header*/
+header {
+    width: 100%;
+    height: 500px;
+    background: #1393dd; 
+    background: linear-gradient(to right, hsla(226, 95%, 35%, 0.473), hsla(167, 86%, 54%, 0.678)), url(./img/fabrica.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header h1 {
+    color: red;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a {
+    color: #fff;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.textos-header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.textos-header h1 {
+    font-size: 100px;
+    color: rgb(233, 5, 5);
+    margin-top: 200px;
+}
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: #fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*Style section sueldo*/
+#Sueldo{
+    margin-top: 150px;
+    height: 400px;
+}
+.bienvenida{
+    margin: 10px;
+}
+.display-2{
+    text-align: center;
+}
+.table{
+    margin: 10px;
+}
+/*style section consultas*/
+#sector-consultas .title-consulta{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center; 
+    margin-top: 350px;
+    width: 100%;
+    padding: 70px 30px 44px;
+}
+
+#consultas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#consultas #formulario-consulta{
+    width: 50%;
+    
+    
+}
+#listarConsultas{
+    width: 50%;
+}
+#formulario-consulta .btn-consulta{
+    color: rgb(20, 19, 19);
+    letter-spacing: 4px;
+    text-decoration: none;
+    transition: 0.2s;
+    background: rgba(240, 228, 228, 0.1);
+    font-weight: bolder;
+    font-family: var(--font);
+    text-align: center;
+    cursor: pointer;
+}
+/*section clientes*/
+#sector-clientes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#btn-clientes{
+    margin: 30px auto;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(20, 19, 19);
+    letter-spacing: 4px;
+    text-decoration: none;
+    transition: 0.2s;
+    background: rgba(240, 228, 228, 0.1);
+    font-weight: bolder;
+    font-family: var(--font);
+    text-align: center;
+    cursor: pointer;
+}
+#btn-clientes:hover{
+    border-radius: 40px;
+    transition-delay: 1s;
+}
+#sector-clientes #contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 2rem;
+
+}
+
+#sector-clientes #contenido img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin-top: 50px;
+   
+   
+    
+}
+
+
+/*Sytle footer*/
+footer {
+    background: #0e0447;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+}
+.content-foo  {
+    text-align: center;
+    color: #fff;
+}
+.content-foo h4 {
+
+ color: #fff;
+ border-bottom: 3px solid #3669f8;
+ padding-bottom: 5px;
+ margin-bottom: 10px;
+}
+.contente-foo p {
+    color: #fff;
+}
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+
+
+
+@media (max-width: 992px){
+    
+    .textos-header h1 {
+        font-size: 2rem;
+        margin-top: 300px;
+    }
+    .textos-header h2 {
+        font-size: 1.5rem;
+      
+    }
+    #sector-consultas h2{
+        margin-top: 400px;
+    }
+    #consultas{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav{
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #sector-clientes #contenido{
+        font-size: 1.5rem;
+    
+    }
+    
+}
+
+@media (max-width: 768px) {
+    #Sueldo{
+        margin-top: 50px;
+        margin-bottom: 400px;
+    }
+    .bienvenida{
+        margin-bottom: 50px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #btn-clientes{
+        letter-spacing: 2px; 
+    }
+   
+  
+}
+@media (max-width: 600px) {
+    #consultas{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav > a {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .textos-header h2 {
+        font-size: 1rem;
+      
+    }
+    #sueldo .table{
+        font-size: 1rem;
+    }
+    #sueldo .table h3{
+        font-size: 1rem;
+    }
+    .contenedor-footer {
+       flex-direction: column;
+    }
+  
+}

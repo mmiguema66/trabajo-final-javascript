@@ -1,0 +1,15 @@
+[
+    {
+     "comercio": "Pintureria Centro",
+     "sucursales":"https://www.pintureriasdelcentro.com/institucionales/locales",
+     "logo": "../img/pintureriacentro.jpg",
+     "email": "info@pintureriasdelcentro.com "
+    },
+    {
+    "comercio": "Pintureria Prestigio",
+    "sucursales":"https://www.prestigio.com.ar/institucional/sucursales",
+    "logo": "../img/prestigio.jpg",
+    "email": "consultas@prestigioweb.com"
+    
+    }
+]
